@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Traffic Light System</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
-        
-        <div class="box">
-            <div class="fmin-box">
-                <div class="trigger">
+        <div class="head">
+            <h1 class="heading">Traffic Light</h1>
+        </div>
+        <div class="body">
+            <div class="block">
+                <div id="red" onclick="firstLight()" class="first-light">
                     
                 </div>
-            </div>
-            <div class="min-box">
-                <i class="fa fa-rocket" style="font-size:48px;color:white"></i>   
-                <h1>Welcome</h1>
-                <span>Hello bro i am here hwo</span>
-                <span>Hello bro i am here</span>
-                <span>Hello bro </span>
-                <button type="submit" class="btn">Login</button>
+                <div id="yellow" class="second-light">
+
+                </div>
+                <div id="green" class="third-light">
+
+                </div>
             </div>
         </div>
+        <div class="footer">
+          
+        </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
