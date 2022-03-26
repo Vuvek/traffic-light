@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    
+    justify-content: center;
+    border: 2px solid red;
+    width:100vw;
+    height: 100vh;
+
+}
+
+.box{
+    width: 1270px;
+    height: 700px;
+    border: 2px solid red;
+    margin-top: 39px;   
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+   
+}
+
+
+.fmin-box{
+
+    width: 960px;
+    height: 608px;
+    border: 2px solid red;
+    border-top-left-radius: 150px;
+    margin-top: 50px;
+    margin-right: 50px;
+    /* border-bottom-left-radius:  150px; */
+    background-color: white;
+    position: relative;
+    
+    
+}
+.trigger{
+    width: 200px;
+    height: 39px;
+    border-radius: 14%;
+    background-color: aqua;
+    position: absolute;
+    right:15px;
+    top: 20px;
+}
+.min-box{
+    width: 300px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 150px;
+    height: 100%;
+    flex-direction: column;
+    color: white;    
+}
+
+  /* Setting Height and Width of Rectangle */
+.ellipse{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+
+    /* Setting Border Radius */
+    border-radius: 50%;
+}
+
+.btn {
+    margin-top: 240px;
+    width: 170px;
+    border-radius: 40px;
+    font-size: large;
+    font-weight: bolder;
+    height: 40px;
+}
